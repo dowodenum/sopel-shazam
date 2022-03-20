@@ -9,7 +9,8 @@ cd "~/.sopel/plugins/"
 wget https://raw.githubusercontent.com/dowodenum/sopel-shazam/main/nowplaying.py
 wget https://raw.githubusercontent.com/dowodenum/sopel-shazam/main/streamscrobbler.py
 sudo apt install ffmpeg
-pip install shazamio>=0.0.5 requests>=2.25.1
+pip install shazamio
+pip install requests
 ```
 
 ### Configuration
